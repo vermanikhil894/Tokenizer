@@ -1,0 +1,17 @@
+This file contains the commands to follow to run the python files:
+
+1.
+python tokenize.py sample.txt.gz > sample.tokens
+python count.py sample.tokens > sample.freqs
+
+2. 
+python tokenize.py tweets-en.txt.gz > tweets-en.tokens
+python count.py tweets-en.tokens > tweets-en.freqs
+
+3.
+python tokenize.py russian-troll-tweets-en.txt.gz > russian-troll-tweets-en.tokens
+python count.py russian-troll-tweets-en.tokens > russian-troll-tweets-en.freqs
+
+Description:
+.token file -> All the data is converted in tokens using tokenize.py.
+.freqs file -> It will list the frequencies of the tokens using count.py.
